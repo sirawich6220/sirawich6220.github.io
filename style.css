@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    font-size: 1em;
+}
+
+a {
+    margin-left: 180px;
+    color: #ffffff;
+    font-family: Kanit;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+
+body .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    max-width: 575px;
+    max-height: 750px;
+    margin: 15px auto;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: bisque;
+}
+
+.inputBox input {
+    border: none;
+    width: 415px;
+    height: 44px;
+    margin: 10px 20px;
+    padding: 0 10px;
+    border-radius: 6px;
+    font-size: 1rem;
+    outline: none;
+    background: #36353A;
+    color: #ffff;
+    text-align: left;
+}
+
+input:hover {
+    background: #EE60A1;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+input[type="radio"]:hover {
+    background-color: #e0e0e0;
+}
+
+.btn-con button2 {
+    display: flex;
+    width: 413px;
+    height: 28px;
+    margin: 20px 20px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    border-radius: 6px;
+    background: #36353A;
+    flex-shrink: 0;
+}
+  
+.btn-con button2:hover {
+background-color: #EE60A1;
+box-shadow: 0 0 12px 0 #EE60A1;
+/* transition: 1s ease-in-out; */
+}
+
+.imgmaki {
+    max-width: 100%;
+    height: 15px;
+    align-items: center;
+    margin-left: 190px;
+    margin-top: 5px;
+}
+
+  
